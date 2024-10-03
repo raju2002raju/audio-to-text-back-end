@@ -2,7 +2,7 @@ const { MongoClient } = require('mongodb');
 const mongoose = require('mongoose');
 
 
-const mongoURI = "mongodb://localhost:27017/AudioToText";
+const mongoURI = "mongodb+srv://royr55601:royr55601@cluster0.xra8inl.mongodb.net/AudioToText";
 
 
 const mongoClient = new MongoClient(mongoURI, {
